@@ -1,4 +1,4 @@
-public class Main
+public class queueLL
 {
     static class Node{
         int data;
@@ -42,7 +42,7 @@ public class Main
             head = head.next;
             return front;
         }
-        public static int peak(){
+        public static int peek(){
             if(isEmpty()){
                 System.out.println("Empty List");
                 
@@ -61,7 +61,7 @@ public class Main
 		q.add(5);
 		
 		while(!q.isEmpty()){
-		    System.out.println(q.peak());
+		    System.out.println(q.peek());
 		    q.remove();
 		}
 		
